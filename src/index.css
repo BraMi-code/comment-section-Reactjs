@@ -21,9 +21,24 @@ code {
 
 .commentList {
   background-color: bisque;
+  padding: 20px;
   margin: 30px;
 }
 
 .commentForm {
   background-color: pink;
+}
+
+.userInfo {
+  background-color: rgb(221, 221, 80);
+}
+
+.comment {
+  background-color: yellow;
+  margin: 20px;
+}
+
+.avatar {
+  width: 15px;
+  height: 15px;
 }

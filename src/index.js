@@ -4,6 +4,6 @@ import './index.css';
 import CommentBox from './App.js';
 
 ReactDOM.render(
-    <CommentBox name="Branka" />,
+    <CommentBox />,
   document.getElementById('root')
 );

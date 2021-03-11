@@ -1,13 +1,27 @@
 import React from 'react';
 
+class Avatar extends React.Component {
+  render() {
+    return (
+      <img className="avatar"
+      alt={this.props.author}
+      />
+    )
+  }
+}
+
+
 class Comment extends React.Component {
   render() {
     return (
       <div className="comment">
-        <h2 className="commentAuthor">
-          {this.props.author}
-        </h2>
-        {this.props.children}
+        <div className="userInfo">
+          <Avatar />
+          <div className="commentAuthor">
+            {this.props.author}
+          </div>
+      </div>
+      {this.props.children}
       </div>
     );
   }
@@ -31,6 +45,7 @@ class CommentList extends React.Component {
         Comment list
         <Comment author="Branka M.">First comment</Comment>
         <Comment author="Nikola P.">Good, second comment</Comment>
+        <Comment author="Mara Mi.">Third comment, comes along!</Comment>
       </div>
     )
   }
