@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.commentBox {
+  background-color: aquamarine;
+  padding: 20px;
+  text-align: center;
+}
+
+.commentList {
+  background-color: bisque;
+  margin: 30px;
+}
+
+.commentForm {
+  background-color: pink;
+}
